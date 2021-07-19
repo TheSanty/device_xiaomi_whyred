@@ -1,0 +1,20 @@
+[
+  {
+    "remote"       : "github"
+    "repository"   : "TheSanty/kernel_xiaomi_sdm660",
+    "target_path"  : "kernel/xiaomi/sdm660"
+    "branch"       : "eleven"
+  },
+  {
+    "remote"       : "github"
+    "repository"   : "TheSanty/device_xiaomi_sdm660-common",
+    "target_path"  : "device/xiaomi/sdm660-common"
+    "branch"       : "eleven"
+  },
+  {
+    "remote"       : "github"
+    "repository"   : "TheSanty/vendor_xiaomi",
+    "target_path"  : "vendor/xiaomi"
+    "branch"       : "eleven"
+  }
+]
