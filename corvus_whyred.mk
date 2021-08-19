@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Corvus stuff
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
+# Offline Charging
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Corvus Maintainer
 CORVUS_MAINTAINER := TheSanty
 
