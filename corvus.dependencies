@@ -1,20 +1,42 @@
 [
   {
-    "remote"       : "github"
-    "repository"   : "TheSanty/kernel_xiaomi_sdm660",
-    "target_path"  : "kernel/xiaomi/sdm660"
-    "branch"       : "eleven"
+    "repository"   : "device_xiaomi_sdm660-common-whyred",
+    "target_path"  : "device/xiaomi/sdm660-common",
+    "branch"       : "11"
   },
   {
-    "remote"       : "github"
-    "repository"   : "TheSanty/device_xiaomi_sdm660-common",
-    "target_path"  : "device/xiaomi/sdm660-common"
-    "branch"       : "eleven"
+    "repository"   : "vendor_xiaomi_whyred",
+    "target_path"  : "vendor/xiaomi",
+    "branch"       : "11"
   },
   {
-    "remote"       : "github"
-    "repository"   : "TheSanty/vendor_xiaomi",
-    "target_path"  : "vendor/xiaomi"
-    "branch"       : "eleven"
+    "remote"       : "github",
+    "repository"   : "TheSanty/Whyred",
+    "target_path"  : "kernel/xiaomi/sdm660",
+    "branch"       : "extended-eas"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "TheSanty/vendor_MiuiCamera",
+    "target_path"  : "vendor/MiuiCamera",
+    "branch"       : "11.x"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "LineageOS/android_hardware_qcom_display",
+    "target_path"  : "hardware/qcom-caf/msm8998/display",
+    "branch"       : "lineage-18.1-caf-msm8998"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "LineageOS/android_hardware_qcom_audio",
+    "target_path"  : "hardware/qcom-caf/msm8998/audio",
+    "branch"       : "lineage-18.1-caf-msm8998"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "LineageOS/android_hardware_qcom_media",
+    "target_path"  : "hardware/qcom-caf/msm8998/media",
+    "branch"       : "lineage-18.1-caf-msm8998"
   }
 ]
