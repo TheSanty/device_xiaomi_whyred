@@ -1,6 +1,7 @@
 [
   {
-    "repository"   : "device_xiaomi_sdm660-common",
+    "remote"       : "github",
+    "repository"   : "TheSanty/device_xiaomi_sdm660-common",
     "target_path"  : "device/xiaomi/sdm660-common",
     "branch"       : "eleven"
   },
