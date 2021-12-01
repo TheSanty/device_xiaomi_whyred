@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_USES_FACE_UNLOCK := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
