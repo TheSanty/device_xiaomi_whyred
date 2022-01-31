@@ -42,9 +42,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
-# Powerhint
-EAS_POWERHINT_VARIANT := sdm636
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
