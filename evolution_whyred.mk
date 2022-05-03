@@ -16,7 +16,6 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_USES_FACE_UNLOCK := true
-TARGET_USES_FULL_GAPPS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from whyred device
