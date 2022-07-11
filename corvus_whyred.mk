@@ -24,7 +24,6 @@ CORVUS_MAINTAINER := TheSanty
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit from custom vendor.
-$(call inherit-product, vendor/MiuiCamera/config.mk)
 $(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
 
 PRODUCT_BRAND := Xiaomi
